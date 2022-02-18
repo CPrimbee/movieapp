@@ -1,4 +1,4 @@
-name: movie
+name: login
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
@@ -12,9 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  dependencies:
-    path: ../../commons/dependencies
-
   micro_core:
     path: ../../core/micro_core
 
@@ -25,4 +22,5 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+
 flutter:

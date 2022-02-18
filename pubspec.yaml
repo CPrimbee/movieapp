@@ -11,10 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio:
-  lottie:
-  shared_preferences:
-  cached_network_image:
 
   micro_core:
     path: packages/core/micro_core
@@ -22,9 +18,8 @@ dependencies:
   movie:
     path: packages/micro_apps/movie
 
-  cupertino_icons: ^1.0.2
-  get_it: ^7.2.0
-  dartz: ^0.10.1
+  login:
+    path: packages/micro_apps/login
 
 dev_dependencies:
   flutter_test:
