@@ -16,6 +16,12 @@ dependencies:
   shared_preferences:
   cached_network_image:
 
+  micro_core:
+    path: packages/core/micro_core
+
+  movie:
+    path: packages/micro_apps/movie
+
   cupertino_icons: ^1.0.2
   get_it: ^7.2.0
   dartz: ^0.10.1
@@ -23,7 +29,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^1.0.0
 
 flutter:
